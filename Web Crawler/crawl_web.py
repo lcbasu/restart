@@ -38,6 +38,6 @@ def crawl_web(seed):
 				to_crawl.append(f)
 	return crawled
 	
-seed = "http://www.udacity.com/cs101x/index.html"
+seed = "http://www.udacity.com/cs101x/index.html/"
 
 print crawl_web(seed)
