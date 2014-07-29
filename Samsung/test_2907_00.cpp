@@ -2,17 +2,41 @@
 
 using namespace std;
 
+#define MAX 100
+
+int arr_sum(int *arr, int n);
+
 int main()
 {
-	int arr[5];
-	arr[0] = 1;
-	for (int i = 0; i < 5; ++i)
+	// passing array to function
+
+	int arr[MAX];
+
+	int n;
+	cout << "Total numbers to be added: ";
+	cin >> n;
+	cout << endl;
+
+	for (int i = 0; i < n; ++i)
 	{
 		cin >> arr[i];
 	}
-	for (int i = 0; i < 5; ++i)
-	{
-		cout << arr[i] << endl;
-	}
+
+	int sum = 0;
+
+	sum = arr_sum(arr, n);
+
+	cout << "Sum: " << sum << endl;
+
 	return 0;
+}
+
+int arr_sum(int *arr, int n)
+{
+	int sum = 0;
+	for (int i = 0; i < n; ++i)
+	{
+		sum += *(arr + i);
+	}
+	return sum;
 }
