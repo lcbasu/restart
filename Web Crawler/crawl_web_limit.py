@@ -43,6 +43,6 @@ def crawl_web(seed,limit):
 				break
 	return crawled
 	
-seed = "http://www.udacity.com/cs101x/index.html"
+seed = "http://www.udacity.com/cs101x/"
 
 print crawl_web(seed,100)
