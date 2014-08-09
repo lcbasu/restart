@@ -78,26 +78,3 @@ incorrect5 = [ [1, 1.5],
 
 
 print check_sudoku(incorrect3)
-
-
-    
-    
-#print check_sudoku(incorrect)
-#>>> False
-
-#print check_sudoku(correct)
-#>>> True
-
-#print check_sudoku(incorrect2)
-#>>> False
-
-#print check_sudoku(incorrect3)
-#>>> False
-
-#print check_sudoku(incorrect4)
-#>>> False
-
-#print check_sudoku(incorrect5)
-#>>> False
-
-
