@@ -1,5 +1,5 @@
 /*
-	Program to print BFS traversal from a given source vertex.s
+	Program to print BFS traversal from a given source vertex.
 	Created By: Lokesh Chandra Basu
 	Email:		lokesh.basu@gmail.com
 */
