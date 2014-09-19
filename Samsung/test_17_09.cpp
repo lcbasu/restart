@@ -18,6 +18,6 @@ long long int fac(int n)
 
 int main()
 {
-	cout << fac(6) << endl;
+	cout << fac(9) << endl;
 	return 0;
 }
