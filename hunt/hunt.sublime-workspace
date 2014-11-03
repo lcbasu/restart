@@ -133,6 +133,14 @@
 				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "/Users/LokeshBasu/Downloads/ParsePlatform-AnyWall-be82b0d/README.md",
+			"settings":
+			{
+				"buffer_size": 1073,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -162,10 +170,12 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/LokeshBasu/Documents/restart/hunt"
+		"/Users/LokeshBasu/Documents/restart/hunt",
+		"/Users/LokeshBasu/Documents/restart/hunt/geeksforgeeks"
 	],
 	"file_history":
 	[
+		"/Users/LokeshBasu/Documents/restart/hunt/codechef/test.cpp",
 		"/Users/LokeshBasu/Documents/restart/hunt/hunt.sublime-project",
 		"/Users/LokeshBasu/Documents/android/adt/M Notice/README.md",
 		"/Users/LokeshBasu/Documents/android/.gitignore",
@@ -292,8 +302,7 @@
 		"/Users/LokeshBasu/Documents/RailsApp/sample_app/db/migrate/20140601034246_add_password_digest_to_users.rb",
 		"/Users/LokeshBasu/Documents/RailsApp/sample_app/db/migrate/20140601033830_add_index_to_users_email.rb",
 		"/Users/LokeshBasu/Documents/RailsApp/sample_app/app/views/layouts/_shim.html.erb",
-		"/Users/LokeshBasu/Documents/RailsApp/sample_app/config/application.rb",
-		"/Users/LokeshBasu/Documents/RailsApp/sample_app/.git/config"
+		"/Users/LokeshBasu/Documents/RailsApp/sample_app/config/application.rb"
 	],
 	"find":
 	{
@@ -351,7 +360,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -373,6 +382,34 @@
 						"settings":
 						{
 							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/LokeshBasu/Downloads/ParsePlatform-AnyWall-be82b0d/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1073,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
