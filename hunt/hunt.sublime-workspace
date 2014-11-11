@@ -128,17 +128,67 @@
 	"buffers":
 	[
 		{
+			"file": "hackerrank/MaximizingXOR.cpp",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 637,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/LokeshBasu/Downloads/ParsePlatform-AnyWall-be82b0d/README.md",
+			"file": "sample.cpp",
 			"settings":
 			{
-				"buffer_size": 1073,
+				"buffer_size": 372,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "hackerrank/ChocolateFeast.cpp",
+			"settings":
+			{
+				"buffer_size": 634,
+				"line_ending": "Unix",
+				"name": "Chocolate Feast"
+			}
+		},
+		{
+			"file": "hackerrank/TheLLMystery.cpp",
+			"settings":
+			{
+				"buffer_size": 581,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "hackerrank/HalloweenParty.cpp",
+			"settings":
+			{
+				"buffer_size": 547,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "hackerrank/CutSticks.cpp",
+			"settings":
+			{
+				"buffer_size": 1045,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "hackerrank/GameOfThrones1.cpp",
+			"settings":
+			{
+				"buffer_size": 645,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "hackerrank/GemStones.cpp",
+			"settings":
+			{
+				"buffer_size": 1132,
 				"line_ending": "Unix"
 			}
 		}
@@ -171,10 +221,14 @@
 	"expanded_folders":
 	[
 		"/Users/LokeshBasu/Documents/restart/hunt",
-		"/Users/LokeshBasu/Documents/restart/hunt/geeksforgeeks"
+		"/Users/LokeshBasu/Documents/restart/hunt/geeksforgeeks",
+		"/Users/LokeshBasu/Documents/restart/hunt/hackerrank"
 	],
 	"file_history":
 	[
+		"/Users/LokeshBasu/Documents/restart/hunt/hackerrank/ServiceLane.cpp",
+		"/Users/LokeshBasu/Documents/restart/hunt/hackerrank/UtopianTree.cpp",
+		"/Users/LokeshBasu/Downloads/ParsePlatform-AnyWall-be82b0d/README.md",
 		"/Users/LokeshBasu/Documents/restart/hunt/codechef/test.cpp",
 		"/Users/LokeshBasu/Documents/restart/hunt/hunt.sublime-project",
 		"/Users/LokeshBasu/Documents/android/adt/M Notice/README.md",
@@ -299,10 +353,7 @@
 		"/Users/LokeshBasu/Documents/RailsApp/sample_app/app/views/layouts/application.html.erb",
 		"/Users/LokeshBasu/Documents/RailsApp/sample_app/app/helpers/users_helper.rb",
 		"/Users/LokeshBasu/Documents/RailsApp/sample_app/config/environments/test.rb",
-		"/Users/LokeshBasu/Documents/RailsApp/sample_app/db/migrate/20140601034246_add_password_digest_to_users.rb",
-		"/Users/LokeshBasu/Documents/RailsApp/sample_app/db/migrate/20140601033830_add_index_to_users_email.rb",
-		"/Users/LokeshBasu/Documents/RailsApp/sample_app/app/views/layouts/_shim.html.erb",
-		"/Users/LokeshBasu/Documents/RailsApp/sample_app/config/application.rb"
+		"/Users/LokeshBasu/Documents/RailsApp/sample_app/db/migrate/20140601034246_add_password_digest_to_users.rb"
 	],
 	"find":
 	{
@@ -360,28 +411,61 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "hackerrank/MaximizingXOR.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 637,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								602,
+								602
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 131.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sample.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 372,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								261,
+								261
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -391,31 +475,172 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/Users/LokeshBasu/Downloads/ParsePlatform-AnyWall-be82b0d/README.md",
+					"buffer": 2,
+					"file": "hackerrank/ChocolateFeast.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1073,
+						"buffer_size": 634,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								634,
+								634
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+							"auto_name": "Chocolate Feast",
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "hackerrank/TheLLMystery.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 581,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								334,
+								334
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 78.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "hackerrank/HalloweenParty.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 547,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								547,
+								547
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "hackerrank/CutSticks.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1045,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								503,
+								503
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "hackerrank/GameOfThrones1.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 645,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								423,
+								423
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 150.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "hackerrank/GemStones.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								240,
+								240
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
