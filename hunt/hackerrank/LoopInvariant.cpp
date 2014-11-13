@@ -10,7 +10,7 @@ void insertionSort(int ar_size, int *  ar) {
     {
         value=ar[i];
         j=i-1;
-        while(j>0 && value<ar[j])
+        while(j>=0 && value<ar[j])
         {
             ar[j+1]=ar[j];
             j=j-1;
