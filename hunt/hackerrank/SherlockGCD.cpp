@@ -18,17 +18,11 @@
 
 using namespace std;
 
-//the cases where {2} or {1, 2} is present is also YES for this program
-bool isSpecialPrime(int num)
+int gcd(int a, int b)
 {
-    if(num == 2)
-        return false;
-    for(int i = 2; i <= num/2; i++)
-    {
-        if(num%i == 0)
-            return false;
-    }
-    return true;
+    if(b == 0)
+        return a;
+    return gcd(b, a%b);
 }
 
 int main()
@@ -40,22 +34,17 @@ int main()
         int N;
         cin >> N;
         
-        vector<int> A;
-        
-        bool onePresent = false;
-        bool primePresent = false;
+        int gcdNum = 0;
         
         for(int i = 0; i < N; i++)
         {
             int tmp;
             cin >> tmp;
-            if(tmp == 1)
-                onePresent = true;
-            primePresent = isSpecialPrime(tmp);
-            A.push_back(tmp);
+            
+            gcdNum = gcd(gcdNum, tmp);
         }
         
-        if(onePresent || primePresent)
+        if(gcdNum == 1)
             cout << "YES" << endl;
         else
             cout << "NO" << endl;
